@@ -1,0 +1,4 @@
+docker build -t my-nginx .
+docker run --name my-nginx-server -d -p 8081:80 my-nginx
+
+и по локалке через порт 8081 можно подключаться
