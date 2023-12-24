@@ -6,7 +6,7 @@ docker run --name my-nginx-server -d -p 8081:80 my-nginx
 
 и по локалке через порт 8081 можно подключаться
 
-Второй докер находиться в папке netology_CRUD_homework
+Второй докер находиться в папке netology_test/smart_home
 
 Собираю через 
 
