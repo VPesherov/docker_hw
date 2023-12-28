@@ -14,6 +14,10 @@ docker build -f Dockerfile -t my_django_hw:v1 .
 
 Запускаю через
 
-docker run my_django_hw:v1
+docker run --name my_django_server -p 8000:8000 my_django_hw:v1
 
-Пока не работает второй докер, нужна помощь)
+Можно добавить ещё тэг -d тогда запустится на фоне
+
+docker run --name my_django_server -d -p 8000:8000 my_django_hw:v1
+
+Работает!!! 
